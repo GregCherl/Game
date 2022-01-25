@@ -1,0 +1,512 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: #FAFAFA;;
+}
+
+header {
+    margin-top: 36px;
+    margin-bottom: 187px;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+
+.header__link li {
+    list-style: none;
+}
+
+.header__link a {
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    
+    letter-spacing: 0.01em;
+
+    color: #1D242B;
+
+    padding-right: 43px;
+}
+
+.header__logo {
+    width: 110px;
+    height: 37px;
+}
+
+.shape {
+    width: 26.94px;
+    height: 27.63px;
+
+    margin-right: 30px;
+}
+
+.profile {
+    width: 21.84px;
+    height: 27.4px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: inline-block;
+}
+
+
+/* description ======
+============= */
+
+
+.description h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 47px;
+    line-height: 40px;
+    
+    letter-spacing: 0.01em;
+
+    color: #1D242B;
+
+    width: 372px;
+    height: 80px;
+
+    margin-bottom: 54px;
+}
+
+.description p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+   
+    width: 386px;
+    height: 84px;
+
+    letter-spacing: 0.01em;
+
+    color: #1D242B;
+ 
+    margin-bottom: 48px;
+    margin-right: 124px;
+}
+
+.btn {
+    padding: 21px 45px 21px 45px;
+    border-radius: 50px;
+
+    border: 0;
+
+    background-color: #000;
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    color: #FAFAFA;
+}
+
+
+.description__left {
+    display: inline-block;
+}
+
+.description__right {
+    display: inline-block;
+}
+
+.joystick {
+    width: 526px;
+}
+
+
+
+
+/* requests ===========
+============= */
+
+.requests {
+    display: flex;
+    justify-content: center;
+}
+
+.requests__head {
+    margin-top: 227px;
+    margin-bottom: 120px;
+
+    text-align: center;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 34px;
+    
+    color: #1D242B;
+}
+
+.left__block {
+    margin-right: 44px;
+}
+
+.center__block {
+    margin-right: 44px;
+}
+
+.requests h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 34px;
+
+    
+    text-align: center;
+
+    color: #1D242B;
+}
+
+/* block 1 ====== */
+
+.block1 {
+    position: relative;
+
+    width: 268px;
+    height: 444px;
+
+    border-radius: 25px;
+    background: #FFFFFF;
+
+    margin-bottom: 44px;
+}
+
+
+.icon_iphone {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.price__iphone {
+    width: 180px;
+    position: absolute;
+    left: 25px;
+    bottom: 20px;
+}
+
+.info__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #1D242B;
+}
+
+.money__price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #BABABA;
+}
+
+/* block 2 ====== */
+
+.block2 {
+    position: relative;
+
+    width: 266px;
+    height: 266px;
+
+    border-radius: 25px;
+    background: #fff;
+
+    margin-bottom: 44px;
+}
+
+.icon__glasses {
+    position: absolute;
+    width: 222px;
+    height: 143px;
+    left: -6px;
+    top: 22px;
+}
+
+.price__glasses {
+    position: absolute;
+    
+    width: 118px;
+    height: 34px;
+    right: 25px;
+    bottom: 50px;
+}
+
+.info__glasses {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #1D242B;
+}
+
+.money__glasses {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #BABABA;
+}
+
+/* block3 =====
+============ */
+
+.block3 {
+    position: relative;
+
+    width: 274px;
+    height: 274px;
+
+    background: #fff;
+    border-radius: 25px;
+
+    margin-bottom: 44px;
+}
+
+.icon__ipad {
+    position: absolute;
+
+    right: 45px;
+    top: 20px;
+}
+
+.price__ipad {
+    position: absolute;
+
+    left: 9.47%;
+    right: 51.58%;
+    top: 70.01%;
+    bottom: 7.39%;
+}
+
+.info__ipad {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #1D242B;
+}
+
+.money__ipad {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #BABABA;
+}
+
+/* block4 */
+
+.block4 {
+    position: relative;
+
+    width: 274px;
+    height: 232px;
+
+    border-radius: 25px;
+    background: #fff;
+
+    margin-bottom: 44px;
+}
+
+.icon__airpods{
+    position: absolute;
+    left: 0px;
+    top: 43px;
+}
+
+.price__airpods {
+    position: absolute;
+    right: 25px;
+    bottom: 102px;
+
+    width: 95px;
+    height: 34px;
+}
+
+.info__airpods {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #1D242B;
+}
+
+.money__airpods {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #BABABA;
+}
+
+/* block5 */
+
+.block5 {
+    position: relative;
+
+    width: 274px;
+    height: 230.54px;
+
+    background: #fff;
+    border-radius: 25px;
+
+    margin-bottom: 44px;
+}
+
+.price__tv {
+    position: absolute;
+    width: 129px;
+    height: 34px;
+    right: 25px;
+    bottom: 50px;
+}
+
+.icon__tv {
+    position: absolute;
+    left: 21px;
+    top: 20px;
+}
+
+.info__tv {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #1D242B;
+}
+
+.money__tv {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    
+    color: #BABABA;
+}
+
+/* block6 */
+
+.block6 {
+    position: relative;
+
+    width: 268px;
+    height: 268px;
+
+    background: #fff;
+    border-radius: 25px;
+
+    margin-bottom: 44px;
+}
+
+.icon__macbook {
+    position: absolute;
+    right: 14px;
+    top: 29px;
+}
+
+.price__macbook {
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    left: 25px;
+    bottom: 50px;
+}
+
+.info__macbook {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+  
+    color: #1D242B;
+}
+
+.money__macbook {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    
+    color: #BABABA;
+}
+
+/* block7 */
+
+.block7 {
+    position: relative;
+
+    width: 268px;
+    height: 444px;
+
+    background: #fff;
+    border-radius: 25px;
+}
+
+.icon__imac {
+    position: absolute;
+
+    left: 9px;
+    top: 68px;
+}
+
+.price__imac {
+ 
+
+    width: 57px;
+    height: 34px;
+}
+
+.info__imac {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+}
+
+.money__imac {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #BABABA;
+
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+}
+
